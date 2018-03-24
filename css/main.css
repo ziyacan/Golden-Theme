@@ -1,0 +1,573 @@
+html,
+body,
+#cover{
+    height: 100%;
+    width: 100%;
+}
+/*START NAV CSS*/
+#cover{
+    background: url('../images/mainBg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.fixed-top{
+    max-width: 1140px;
+    margin: 20px auto;
+    transition: 0.2s all linear;
+}
+.welcome{
+    margin-top: 21%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+}
+.nice{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-warning{
+    background: #fed136;
+    color: white;
+    font-weight: 600;
+    border-style: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;    
+    transition: 0.2s linear 0s; 
+}
+.btn-warning:hover{
+    background: #fff;
+    color: #fed136;
+}
+a.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white !important;   
+    font-weight: 600;
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+}
+
+a.nav-link:hover{
+    color: #fed136 !important;   
+}
+/*END NAV CSS*/
+
+
+
+/*START SERVICES CSS*/
+#services{
+    padding: 100px 0;
+}
+
+.services-title, .portfolio-title, .aboutUs-title, .team-title{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-weight: bold;
+}
+.services-alt, .portfolio-alt, .aboutUs-alt, .team-alt{
+    color: #777777;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;   
+    margin-bottom: 70px; 
+}
+.item-circle{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fed136;
+    border-radius: 200px;
+    margin: 0 auto;
+}
+
+.services-content svg {
+    color: #fed136;
+}
+
+.item-circle{
+    line-height: 120px;
+}
+
+.commerce{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.long-text{
+    font-size: 14px;
+    color: #777;
+    font-family: 'Roboto Slab', serif;
+    margin: 20px auto;
+}
+/*END SERVICES CSS*/
+
+/*START PORTFOLIO CSS*/
+#portfolio{
+    background: #f7f7f7;
+    padding: 100px 0;
+}
+
+.card{
+    border-style: none;
+}
+
+#portfolio .row:nth-of-type(2){
+    margin-top: 50px;
+}
+
+.card-title{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.card-text{
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
+    padding-bottom: 20px;   
+}
+.card-block{
+    line-height: 100%;    
+}
+/*END PORTFOLIO CSS*/
+
+/*START ABOUT US CSS*/
+#aboutUs{
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.aboutUs-content .row{
+    margin-bottom: 90px;
+}
+
+.aboutUs-content .aboutUs-one, .aboutUs-two{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;    
+}
+
+.aboutUs-content .aboutUs-three, .team-two{
+    font-weight: normal;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+
+.aboutUs-content{
+    position: relative;
+}
+
+.aboutUs-content:before{
+    position: absolute;
+    content: "";
+    width: 3px;
+    background-color: #f1f1f1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.about-circle{
+    width: 183px;
+    height: 183px;
+    background-color: #fed136;
+    margin: 0 auto;
+    border-radius: 183px;
+    border: 7px solid #f1f1f1;
+}
+
+.circle-text{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: 183px;
+    align-self: center;
+    margin: 30px auto;
+}
+
+/*END ABOUT US CSS*/
+
+/*START TEAM CSS*/
+#team{
+    background: #f9f9f9;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.team-one{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;  
+}
+
+.social-icons{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon{
+    display: inline-block;
+}
+
+.social-icon{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    transition: 0.1s all 0s;
+}
+
+.social-icon:hover:nth-last-of-type(3){
+    color: white;
+    background: #00aced;
+}
+
+.social-icon:hover:nth-last-of-type(2){
+    color: white;
+    background: #3b5998;
+}
+
+.social-icon:hover:nth-last-of-type(1){
+    color: white;
+    background: #cb2028;
+}
+
+.team-bottom{
+    max-width: 600px;
+    margin: 50px auto;
+    color: #777;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.team-circle{
+    width: 220px;
+    height: 220px;
+    background: black;
+    border-radius: 220px;
+    margin: 0 auto;
+    border: 6px solid white;
+    margin-bottom: 20px;
+}
+/*END TEAM CSS*/
+
+/*START PARTNER CSS*/
+#partner{
+    padding: 60px 0;
+}
+/*END PARTNER CSS*/
+
+/*START CONTACT CSS*/
+#contact{
+    background: url('../images/contact-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 120px 0;
+}
+
+.contact-title{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.contact-alt{
+    color: #696969;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;   
+    margin-bottom: 70px; 
+}
+
+#name, #email, #subject{
+    width: 90%;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-radius: 3px;
+    margin-left: 5%;
+}
+
+textarea{
+    width: 90%;
+    height: 200px;
+    border-style: none;
+    border-radius: 3px;
+    padding: 20px 20px;
+    margin-left: 5%;
+}
+
+.golden-form-element{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+}
+/*END CONTACT CSS*/
+
+/*START FOOTER CSS*/
+#footer{
+    padding: 20px 0;
+}
+
+.copyright{
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+    line-height: 40px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.company-social-icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.company-social-icon{
+    display: inline-block;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: black;
+    line-height: 40px;
+    margin-left: 15px;
+    transition: 0.1s all 0s;
+}
+
+.company-social-icon:hover:nth-last-of-type(1){
+    color: white;
+    background: #d34836;
+}
+.company-social-icon:hover:nth-last-of-type(2){
+    color: white;
+    background: #cb2028;
+}
+.company-social-icon:hover:nth-last-of-type(3){
+    color: white;
+    background: #3b5998;
+}
+.company-social-icon:hover:nth-last-of-type(4){
+    color: white;
+    background: #00aced;
+}
+/*END FOOTER CSS*/
+
+
+
+/*START FIXED-MENU CSS*/
+.fixed-top.change-fix-top{
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.925);
+    max-width: 2000px;
+}
+/*END FIXED-MENU CSS*/
+
+
+/* START MEDIA QUERIES */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*START COVER CSS*/
+    .welcome{
+        margin-top: 25%;
+        font-size: 32px;
+    }
+    .nice{
+        font-size: 55px;
+    }
+    /*END COVER CSS*/
+    /*START FOOTER CSS*/
+    .copyright{
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .company-social-icon{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        line-height: 30px;
+    }
+    /*END FOOTER CSS*/
+  }
+  
+
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    /*START COVER CSS*/
+    .welcome{
+        margin-top: 35%;
+        font-size: 26px;
+    }
+    .nice{
+        font-size: 50px;
+    }
+    /*END COVER CSS*/
+    /*START FOOTER CSS*/
+      .copyright{
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .company-social-icon{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        line-height: 30px;
+    }
+    /*END FOOTER CSS*/
+   }
+
+
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+    /*START COVER CSS*/
+    .welcome{
+        margin-top: 48%;
+        font-size: 22px;
+    }
+    .nice{
+        font-size: 38px;
+    }
+    /*END COVER CSS*/
+     /*START PORTFOLIO CSS*/
+     .card{
+         padding: 0 10px;
+     }
+     /*END PORTFOLIO CSS*/
+     /*START ABOUT US CSS*/   
+     #aboutUs{
+         margin-left: 0;
+     }
+     .aboutUs-content:before{
+        content: "";
+        width: 0;
+    }
+    /*END ABOUT US CSS*/
+    /*START TEAM CSS*/
+    #team{
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    #team .social-icons{
+        padding-bottom: 10px;
+    }
+    /*END TEAM CSS*/
+    /*START PARTNER CSS*/
+    #partner .col{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /*END PARTNER CSS*/
+    /*START FOOTER CSS*/
+       .copyright{
+        font-size: 10px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .company-social-icon{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        line-height: 30px;
+    }
+    /*END FOOTER CSS*/
+
+   }
+  
+   @media (max-width: 575.98px) { 
+    /*START COVER CSS*/
+    .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .navbar-light .navbar-toggler{
+        border: 1px solid #fed136;
+    }
+    .welcome{
+        margin-top: 50%;
+        font-size: 18px;
+    }
+    .nice{
+        font-size: 32px;
+    }
+    /*END COVER CSS*/
+    /*START ABOUT US CSS*/   
+      #aboutUs{
+        margin-left: 0;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+    .aboutUs-content:before{
+       content: "";
+       width: 0;
+   }
+   /*END ABOUT US CSS*/
+   /*START TEAM CSS*/  
+   #team{
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+    /*END TEAM CSS*/ 
+    /*START PARTNER CSS*/
+    #partner .col{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /*END PARTNER CSS*/
+    /*START CONTACT CSS*/
+    #contact .btn{
+        margin-top: 20px;
+    }
+    /*END CONTACT CSS*/
+    /*START FOOTER CSS*/
+      .copyright{
+        font-size: 10px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .company-social-icon{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        line-height: 30px;
+    }
+    /*END FOOTER CSS*/
+   }
+
